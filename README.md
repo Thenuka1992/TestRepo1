@@ -14,9 +14,9 @@ are filterd and stored to get a final persistant state of each environment.
     -  gmailFetch.php every minute
     -  dashboardUpdate.php every two minutes
     
-4) Add custom command to send mails to your mail box setup in icinga and contact emails
-    -  edit /etc/icinga/commands.cfg 
-    -  edit /etc/icinga/objects/contacts_icinga.cfg
+4) Add custom command to send mails to your mail box setup in icinga and setup corresponding contacts
+    -  edit /etc/icinga/commands.cfg and add custom command
+    -  edit /etc/icinga/objects/contacts_icinga.cfg to setup a new contact
 
 
 # SCRIPTS
